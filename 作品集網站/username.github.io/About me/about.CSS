@@ -1,0 +1,156 @@
+/* 通用樣式 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+    display: none; /* 默認隱藏 */
+  }
+  /* 當需要顯示時，設置顯示 */
+  .badge.show {
+    display: block;
+  }
+.left-bottom{
+    position: fixed;
+    text-align: right;
+    padding-left: 90%;
+    top: 15px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+header img {
+    width: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+/*color bar
+.left-bottom{
+    top: 90px;
+    width: 1280px; 
+    height: 0px;
+}*/
+/*我的個人介紹*/
+.container{
+    left: 25px;
+    width: 276px;
+    position: relative;
+    top: 10%;
+    padding-left: 10%;
+    }
+.interview{
+    text-align: center;
+    padding-left: 100%;
+    top: 10%;
+}
+
+/*main2系列*/
+div{
+    text-align: left;
+    position:absolute;
+    color: #000;
+    font-family: "Lexend Peta";
+    font-size: 20px;
+    font-weight: 400;}
+h1{
+    width: 582px;
+    height: 86px;
+    flex-shrink: 0;
+}
+  /*特長*/
+.EXPERTISE{
+padding: 10px;
+}
+/*獲獎經歷*/
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    margin-bottom: 90px;
+}
+h2{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+main{
+    background-color: #E9E8E8;
+    width: 1280px;
+    height: 638px;
+   
+}
+/* 個人資訊 */
+.all-bottom{
+    text-align: center;
+    position: absolute;
+    width: 928px;
+    padding-left: 10%;
+}
+.all{
+    padding-top: 10%;
+}
+.profile-container {
+    text-align: center;
+}
+
+.profile-container img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-container h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.profile-container p {
+    font-size: 16px;
+    color: #666666;
+}
+
+/* 教育、專長與獎項 */
+.section {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px 0;
+    text-align: center;
+}
+.section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+/* 提示數字樣式 */
+.toggleBadg {
+    display: none; /* 默認隱藏 */
+  }
+  
+  /* 當需要顯示時，設置顯示 */
+  .toggleBadg{
+    display: block;
+  }
+.back-button:hover {
+    background-color: #333333;
+}
